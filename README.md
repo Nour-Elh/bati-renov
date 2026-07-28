@@ -1,11 +1,41 @@
 
-  # Luxury Renovation Website UI
+# BATI RÉNOV
 
-  This is a code bundle for Luxury Renovation Website UI. The original project is available at https://www.figma.com/design/5RRovPVom3lAFX2faBS1kx/Luxury-Renovation-Website-UI.
+Site vitrine professionnel développé pour l'entreprise BATI RÉNOV.
 
-  ## Running the code
+## À propos
 
-  Run `npm i` to install the dependencies.
+Ce projet présente les services de rénovation proposés par BATI RÉNOV et permet aux clients de découvrir les réalisations de l'entreprise, ses prestations et de demander un devis.
 
-  Run `npm run dev` to start the development server.
-  
+## Technologies utilisées
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Fonctionnalités
+
+- Page d'accueil
+- Présentation des métiers
+- Prestations de rénovation
+- Galerie des réalisations
+- Formulaire de contact et demande de devis
+- Site responsive (mobile, tablette et ordinateur)
+
+## Lancer le projet
+
+```bash
+npm install
+npm run dev
+```
+
+## Générer la version de production
+
+```bash
+npm run build
+```
+
+---
+
+Développé par **Nour El Houda Khoukhi** dans le cadre de son stage.

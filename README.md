@@ -1,7 +1,7 @@
 
 # BATI RÉNOV
 
-Site vitrine professionnel développé pour l'entreprise BATI RÉNOV.
+Site professionnel développé pour l'entreprise BATI RÉNOV.
 
 ## À propos
 

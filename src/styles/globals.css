@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--section-py: 70px;
+	--section-py-tight: 62px;
+	--section-py-compact: 58px;
+	--section-py-xl: 80px;
+	--container-px: 24px;
+}
+
+@media (max-width: 900px) {
+	:root {
+		--section-py: 62px;
+		--section-py-tight: 56px;
+		--section-py-compact: 52px;
+		--section-py-xl: 70px;
+	}
+}
+
+@media (max-width: 600px) {
+	:root {
+		--section-py: 58px;
+		--section-py-tight: 52px;
+		--section-py-compact: 48px;
+		--section-py-xl: 64px;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	text-rendering: optimizeLegibility;
+	background: #f7f4ef;
+	color: #111111;
+}
+
+.dark body {
+	background: #111111;
+	color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+
+.section {
+	padding: var(--section-py) var(--container-px);
+}
+
+.section-tight {
+	padding: var(--section-py-tight) var(--container-px);
+}
+
+.section-compact {
+	padding: var(--section-py-compact) var(--container-px);
+}
+
+.section-xl {
+	padding: var(--section-py-xl) var(--container-px);
+}
+
+.section-hero {
+	padding-left: clamp(20px, 5.5vw, 96px);
+	padding-right: clamp(20px, 5.5vw, 96px);
+}

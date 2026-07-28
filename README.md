@@ -38,4 +38,4 @@ npm run build
 
 ---
 
-Développé par **Nour El Houda Khoukhi** dans le cadre de son stage.
+Développé par **Nour El Houda Khoukhi** dans le cadre de mon stage.
